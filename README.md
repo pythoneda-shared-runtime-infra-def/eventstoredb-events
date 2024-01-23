@@ -1,6 +1,6 @@
-# pythoneda-shared-runtime/lifecycle-events
+# pythoneda-shared-runtime-infrastructure/eventstoredb-events
 
-This is the definition for [https://github.com/pythoneda-shared-runtime/lifecycle-events](https://github.com/pythoneda-shared-runtime/lifecycle-events "pythoneda-shared-runtime/lifecycle-events").
+This is the definition for [https://github.com/pythoneda-shared-runtime-infrastructure/eventstoredb-events](https://github.com/pythoneda-shared-runtime-infrastructure/eventstoredb-events "pythoneda-shared-runtime-infrastructure/eventstoredb-events").
 
 ## How to declare it in your flake
 
@@ -11,10 +11,10 @@ Check the latest tag of this repository and use it instead of the `[version]` pl
   description = "[..]";
   inputs = rec {
     [..]
-    pythoneda-shared-runtime-lifecycle-events = {
+    pythoneda-shared-runtime-infrastructure-eventstoredb-events = {
       [optional follows]
       url =
-        "github:pythoneda-shared-runtime-def/lifecycle-events/[version]";
+        "github:pythoneda-shared-runtime-infra-def/eventstoredb-events/[version]";
     };
   };
   outputs = [..]
@@ -25,7 +25,7 @@ Should you use another PythonEDA modules, you might want to pin those also used 
 
 Use the specific package depending on your system (one of `flake-utils.lib.defaultSystems`) and Python version:
 
-- `#packages.[system].pythoneda-shared-runtime-lifecycle-events-python38` 
-- `#packages.[system].pythoneda-shared-runtime-lifecycle-events-python39` 
-- `#packages.[system].pythoneda-shared-runtime-lifecycle-events-python310` 
-- `#packages.[system].pythoneda-shared-runtime-lifecycle-events-python311` 
+- `#packages.[system].pythoneda-shared-runtime-infrastructure-eventstoredb-events-python38` 
+- `#packages.[system].pythoneda-shared-runtime-infrastructure-eventstoredb-events-python39` 
+- `#packages.[system].pythoneda-shared-runtime-infrastructure-eventstoredb-events-python310` 
+- `#packages.[system].pythoneda-shared-runtime-infrastructure-eventstoredb-events-python311` 

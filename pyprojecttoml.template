@@ -2,7 +2,7 @@
 #
 # This file is the template for pythoneda-shared-runtime/lifecycle-events's pyproject.toml
 #
-# Copyright (C) 2024-today rydnr's pythoneda-shared-runtime-def/lifecycle-events
+# Copyright (C) 2024-today rydnr's pythoneda-shared-runtime-infra-def/eventstoredb-events
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
